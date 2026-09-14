@@ -110,6 +110,7 @@ nav ul li a.active {
     font-size: 1.1rem;
     line-height: 1.6;
     color: #4a4a4a;
+    text-align: justify;
 }
 
 .split-right {
