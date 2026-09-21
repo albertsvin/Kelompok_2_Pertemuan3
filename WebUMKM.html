@@ -457,6 +457,47 @@
 
     </main>
 
+    <!-- FORM PEMESANAN -->
+        <section id="Pemesanan" class="pemesanan-section">
+            <h2>Form Pemesanan Online</h2>
+            <p class="pemesanan-subtitle">Isi data di bawah ini untuk melakukan pemesanan meja atau pesanan bawa pulang (takeaway).</p>
+            
+            <form action="#" method="POST" class="pemesanan-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Nomor WhatsApp / HP</label>
+                    <input type="tel" id="telepon" name="telepon" placeholder="Contoh: 08123456789" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="jenis_pesanan">Jenis Pesanan</label>
+                    <select id="jenis_pesanan" name="jenis_pesanan" required>
+                        <option value="">-- Pilih Jenis Pesanan --</option>
+                        <option value="Dine-in">Makan di Tempat (Dine-in)</option>
+                        <option value="Takeaway">Bawa Pulang (Takeaway)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="detail_pesanan">Detail Menu & Jumlah Pesanan</label>
+                    <textarea id="detail_pesanan" name="detail_pesanan" rows="4" placeholder="Contoh: 2 Nasi Langgi, 1 Es Dawet, 1 Tempe Mendoan" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="catatan">Catatan Tambahan (Opsional)</label>
+                    <input type="text" id="catatan" name="catatan" placeholder="Contoh: Tanpa sambal, Es sedikit">
+                </div>
+
+                <button type="submit" class="btn-submit">Kirim Pesanan</button>
+            </form>
+        </section>
+
+
+    <!-- Bagian Kontak --> 
     <section id="Kontak" class="contact-section">
         <h2>Kontak Kami</h2>
         <p class="contact-subtitle">
