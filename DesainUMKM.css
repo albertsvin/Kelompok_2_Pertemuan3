@@ -345,6 +345,63 @@ section {
     }
 }
 
+/* untuk kontainer si gambarnya yang backgroundnya putih */
+.banner-container {
+    display: flex; 
+    align-items: center; 
+    background-color: #ffffff; 
+    padding: 20px;
+    gap: 25px; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 3px solid #942929; 
+}
+
+/*buat ukuran */
+.banner-img {
+    width: 200px; 
+    height: 140px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.banner-desc {
+    flex: 1; 
+    text-align: left;
+}
+
+/* buat judul deksirpsinya */
+.banner-desc h3 {
+    color: #ff930e; 
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+/* buat teks paragraf */
+.banner-desc p {
+    color: #555555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* buat dia flexible pas di hp atau di crop websitenya dan biar gambarnya kalau di crop ikut kebawah, bukan ke samping)*/
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column; 
+        text-align: center; 
+        padding: 15px;
+    }
+    .banner-desc {
+        text-align: center;
+    }
+    .banner-img {
+        width: 100%; 
+        height: auto;
+        max-height: 200px;
+    }
+}
+
 #Kontak {
 background-color: #f7f4c0;
 color: #ad2525;
