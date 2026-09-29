@@ -10,7 +10,7 @@
 <body>
 
     <!-- HEADER-->
-    <header>
+<header>
         <div class="brand-area">
             <img src="Gambar/Jokowi Makan.png" alt="Logo Restoran"> 
             <h1 class="menu-title">Restoran Pria Solo</h1>            
@@ -20,13 +20,18 @@
         </div>
         <nav>
             <ul>
-                <li><a class="nav-link active" href="#Home">Home</a></li>
-                <li><a class="nav-link" href="#Cerita">Cerita Kami</a></li>
-                <li><a class="nav-link" href="menu.html">Pilihan Menu</a></li> 
-                <li><a class="nav-link" href="#Kontak">Kontak</a></li>
+                <li><a class="nav-link active" href="Home.html#Home">Home</a></li>
+                <li><a class="nav-link" href="Home.html#Cerita">Cerita Kami</a></li>
+                <li class="dropdown">
+                    <a class="nav-link" href="menu.html">Pilihan Menu &#9662;</a>
+                    <ul class="dropdown-content">
+                    <li><a href="menu.html">Semua Menu</a></li>                    
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="index.html#Kontak">Kontak</a></li>
             </ul>
         </nav>
-    </header>
+</header>
 
     <!-- SECTION HOME -->
     <main>
@@ -178,9 +183,7 @@
         <div class="contact-card">
             <h3>📍 Alamat</h3>
             <p>
-                Universitas Tarumanagara Kampus 1<br>
-                Jl. Letjen S. Parman No. 1<br>
-                Jakarta Barat, DKI Jakarta 11440
+            Jl. Madrasah No.14, RT.7/RW.6, Cilandak Tim., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560
             </p>
         </div>
 
