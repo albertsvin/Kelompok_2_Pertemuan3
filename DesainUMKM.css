@@ -57,6 +57,7 @@ header {
     text-transform: uppercase;
 }
 
+/* dari bawah sini sampai dropdown paling bawah untuk mempersingkat bentuk menu*/
 nav ul {
     list-style: none;
     display: flex;
@@ -608,14 +609,14 @@ footer h3 {
 .pemesanan-form input:focus,
 .pemesanan-form select:focus,
 .pemesanan-form textarea:focus {
-    border-color: #d9534f; /* Ubah sesuai warna aksen utama restoranmu */
+    border-color: #d9534f; 
     outline: none;
 }
 
 .btn-submit {
     width: 100%;
     padding: 12px;
-    background-color: #d9534f; /* Ubah sesuai warna aksen utama restoranmu */
+    background-color: #d9534f; 
     color: #ffffff;
     border: none;
     border-radius: 6px;
